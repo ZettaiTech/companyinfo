@@ -1,0 +1,30 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#0099cc;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="url(#eduGrad)"/>
+  
+  <!-- Livro aberto -->
+  <path d="M 100 60 L 150 50 L 200 60 L 200 140 L 150 150 L 100 140 Z" fill="none" stroke="#00d9ff" stroke-width="2.5" opacity="0.8"/>
+  <line x1="150" y1="50" x2="150" y2="150" stroke="#00d9ff" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Linhas de texto -->
+  <line x1="110" y1="80" x2="140" y2="80" stroke="#c0a962" stroke-width="1.5" opacity="0.6"/>
+  <line x1="110" y1="95" x2="145" y2="95" stroke="#c0a962" stroke-width="1.5" opacity="0.6"/>
+  <line x1="110" y1="110" x2="140" y2="110" stroke="#c0a962" stroke-width="1.5" opacity="0.6"/>
+  
+  <line x1="160" y1="80" x2="190" y2="80" stroke="#00d9ff" stroke-width="1.5" opacity="0.6"/>
+  <line x1="160" y1="95" x2="185" y2="95" stroke="#00d9ff" stroke-width="1.5" opacity="0.6"/>
+  <line x1="160" y1="110" x2="190" y2="110" stroke="#00d9ff" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Marcador -->
+  <rect x="205" y="60" width="8" height="70" rx="2" fill="#c0a962" opacity="0.7"/>
+  <circle cx="209" cy="130" r="3" fill="#c0a962" opacity="0.8"/>
+  
+  <!-- Brilhos de aprendizado -->
+  <circle cx="80" cy="70" r="5" fill="#00d9ff" opacity="0.5"/>
+  <circle cx="220" cy="120" r="4" fill="#c0a962" opacity="0.5"/>
+</svg>

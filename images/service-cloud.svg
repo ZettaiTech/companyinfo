@@ -1,0 +1,30 @@
+<svg viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#0099cc;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="250" fill="url(#cloudGrad)"/>
+  
+  <!-- Nuvem central grande -->
+  <path d="M 80 130 Q 70 110, 90 100 Q 100 80, 120 85 Q 140 75, 150 95 Q 170 85, 180 105 Q 200 95, 210 120 Q 220 110, 230 130 Q 220 160, 190 170 L 100 170 Q 70 165, 80 130 Z" fill="none" stroke="#00d9ff" stroke-width="2.5" opacity="0.8"/>
+  
+  <!-- Nuvens menores (representando distribuição) -->
+  <path d="M 50 80 Q 45 70, 60 65 Q 70 55, 80 60 Q 85 50, 95 55 Q 100 75, 80 85 Q 60 90, 50 80 Z" fill="none" stroke="#c0a962" stroke-width="2" opacity="0.6"/>
+  
+  <path d="M 200 60 Q 195 50, 210 45 Q 220 35, 230 40 Q 235 30, 245 35 Q 250 55, 230 65 Q 210 70, 200 60 Z" fill="none" stroke="#c0a962" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Setas/conexões -->
+  <line x1="110" y1="85" x2="130" y2="110" stroke="#00d9ff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="220" y1="75" x2="200" y2="100" stroke="#00d9ff" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Pontos de conexão -->
+  <circle cx="110" cy="85" r="3" fill="#00d9ff" opacity="0.8"/>
+  <circle cx="220" cy="75" r="3" fill="#c0a962" opacity="0.8"/>
+  
+  <!-- Símbolos dentro da nuvem -->
+  <circle cx="140" cy="130" r="2.5" fill="#00d9ff" opacity="0.6"/>
+  <circle cx="155" cy="130" r="2.5" fill="#00d9ff" opacity="0.6"/>
+  <circle cx="170" cy="130" r="2.5" fill="#00d9ff" opacity="0.6"/>
+</svg>

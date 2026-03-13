@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#00d9ff" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Letra Z principal -->
+  <path d="M 60 50 L 140 50 L 60 150 L 140 150" fill="none" stroke="#00d9ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Acento dourado -->
+  <path d="M 75 60 L 125 140" fill="none" stroke="#c0a962" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- Efeito brilho -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#00d9ff" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#c0a962" stroke-width="0.5" opacity="0.3"/>
+</svg>

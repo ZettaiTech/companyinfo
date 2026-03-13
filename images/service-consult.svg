@@ -1,0 +1,29 @@
+<svg viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="consultGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#0099cc;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="250" fill="url(#consultGrad)"/>
+  
+  <!-- Pessoa consultando -->
+  <circle cx="120" cy="70" r="15" fill="none" stroke="#00d9ff" stroke-width="2"/>
+  <path d="M 110 90 Q 120 95, 130 90" fill="none" stroke="#00d9ff" stroke-width="2.5" opacity="0.8"/>
+  <line x1="110" y1="100" x2="130" y2="120" stroke="#00d9ff" stroke-width="2" opacity="0.7"/>
+  <line x1="130" y1="100" x2="150" y2="120" stroke="#00d9ff" stroke-width="2" opacity="0.7"/>
+  <line x1="120" y1="120" x2="120" y2="150" stroke="#00d9ff" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Gráfico/dados -->
+  <rect x="170" y="80" width="80" height="60" fill="none" stroke="#c0a962" stroke-width="2" opacity="0.6"/>
+  <line x1="175" y1="135" x2="175" y2="115" stroke="#00d9ff" stroke-width="2" opacity="0.6"/>
+  <line x1="190" y1="135" x2="190" y2="100" stroke="#00d9ff" stroke-width="2" opacity="0.6"/>
+  <line x1="205" y1="135" x2="205" y2="105" stroke="#00d9ff" stroke-width="2" opacity="0.6"/>
+  <line x1="220" y1="135" x2="220" y2="110" stroke="#00d9ff" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Linha conectando -->
+  <line x1="130" y1="110" x2="165" y2="110" stroke="#c0a962" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Estrela de resultado -->
+  <path d="M 230 60 L 235 75 L 250 75 L 238 85 L 243 100 L 230 90 L 217 100 L 222 85 L 210 75 L 225 75 Z" fill="none" stroke="#c0a962" stroke-width="1.5" opacity="0.7"/>
+</svg>
